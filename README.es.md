@@ -16,6 +16,12 @@ El proyecto está organizado de la siguiente manera:
   - **`data/interim/`** → Datos transformados temporalmente.
   - **`data/processed/`** → Datos listos para análisis.
 
+## Archivos generados
+
+- **`data/processed/X_train.xlsx`** y **`data/processed/X_test.xlsx`** → Variables predictoras separadas para entrenamiento y prueba.
+- **`data/processed/y_train.xlsx`** y **`data/processed/y_test.xlsx`** → Variables objetivo separadas para entrenamiento y prueba.
+- **`models/xgboost_diabetes_model.pkl`** → Modelo XGBoost entrenado para la predicción de diabetes.
+
 
 ## ⚡ Configuración Inicial en Codespaces (Recomendado)
 
